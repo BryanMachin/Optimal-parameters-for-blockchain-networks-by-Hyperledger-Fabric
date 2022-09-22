@@ -1,0 +1,57 @@
+\chapter*{Introducción}\label{chapter:introduction}
+\addcontentsline{toc}{chapter}{Introducción}
+
+Hyperledger Fabric es una plataforma blockchain respaldada por una arquitectura modular que ofrece alta grados de confidencialidad, resiliencia, flexibilidad y escalabilidad. Est\'a dise\~nada para admitir implementaciones de diferentes componentes y adaptarse a las complejidades que existen en el ecosistema empresarial.\\
+
+La primera versi\'on de notoria importancia de Hyperledger Fabric luego de su lanzamiento con la versi\'on 1.0 fue Fabric v2.0. Ofrece nuevas caracter\'isticas y cambios representativos para usuarios y operadores. Incluye la compatibilidad con nuevos patrones de aplicaciones y privacidad, gobernanza mejorada en torno a contratos inteligentes y nuevas opciones para nodos operativos.\\
+
+Fabric v2.0 presenta un gobierno descentralizado para contratos inteligentes, con un nuevo proceso para instalar un chaincode en sus peers e instanciarlos en un canal. El nuevo ciclo de vida del chaincode de Fabric permite que varias organizaciones lleguen a un acuerdo sobre los par\'ametros del chaincode, como la pol\'itica de respaldo del contrato, antes de que pueda usarse para interactuar con el ledger. El nuevo modelo ofrece varias mejoras con respecto al ciclo de vida anterior:
+
+{\begin{itemize}
+\item {\bf M\'ultiples organizaciones deben aceptar los par\'ametros de un chaincode}. En las versiones de lanzamiento 1.x, una organizaci\'on ten\'ia la capacidad de establecer par\'ametros de un chaincode, como la pol\'itica de respaldo, para todos los miembros del canal, que solo ten\'ian el poder de negarse a instalar el chaincode, por lo tanto, no participar en transacciones que lo invoquen. El nuevo ciclo de vida del chaincode de Fabric es m\'as flexible, admite tanto el modelo de ciclo de vida anterior, como modelos descentralizados que requieren suficiente n\'umero de organizaciones para acordar una pol\'itica de respaldo y otros detalles antes de que el chaincode se convierta en activo en un canal.
+
+\item {\bf Proceso de actualizaci\'on de chaincode m\'as deliberado}. Anteriormente la transacci\'on de actualizaci\'on pod\'ia ser emitida por una sola organizaci\'on, creando un riesgo para un miembro del canal que a\'un no hab\'ia instalado el nuevo chaincode. El nuevo modelo permite que el chaincode se actualice solo despu\'es de que un n\'umero suficiente de organizaciones han aprobado la actualizaci\'on.
+
+\item {\bf Actualizaciones m\'as sencillas de pol\'iticas de respaldo y recopilaci\'on de datos privados}. Se permite cambiar una pol\'itica de respaldo o una configuraci\'on de recopilaci\'on de datos privados sin tener que volver a empaquetar o instalar el chaincode. Los usuarios tambi\'en pueden aprovechar una nueva pol\'itica de respaldo predeterminada que requiere el respaldo de una mayor\'ia de organizaciones en el canal. Esta pol\'itica se actualiza autom\'aticamente cuando se agregan o eliminan organizaciones del canal.
+
+\item {\bf Paquetes de chaincodes inspeccionables}. El chaincode se empaqueta en archivos .tar f\'aciles de leer, que hace m\'as factible su inspecci\'on  y coordinaci\'on de la instalaci\'on en m\'ultiples organizaciones.
+
+\item {\bf Iniciar m\'ultiples chaincodes en un canal usando un paquete}. El ciclo de vida anterior defin\'ia cada chaincode en el canal usando un nombre y una versi\'on que se especific\'o en su instalaci\'on. Ahora existe la posibilidad de usar un solo paquete de chaincodes y desplegarlo varias veces con diferentes nombres en el mismo canal o en diferentes canales.
+\end{itemize}
+
+Los mismos m\'etodos descentralizados para llegar a un acuerdo que sustentan la nueva gesti\'on del ciclo de vida del chaincode pueden usarse tambi\'en en su propia aplicaci\'on para garantizar que las organizaciones den su consentimiento a las transacciones de datos antes de que se realicen escrituras en el ledger.\\
+
+\begin{itemize}
+\item {\bf Comprobaciones automatizadas}. Las organizaciones pueden agregar comprobaciones autom\'aticas a las funciones del chaincode para validar informaci\'on adicional antes de aprobar una propuesta de transacci\'on.
+
+\item {\bf Acuerdo descentralizado}. Las decisiones humanas se pueden modelar en un proceso de chaincode que abarca m\'ultiples transacciones. El chaincode puede requerir que los actores de varias organizaciones indiquen sus t\'erminos y condiciones de acuerdo en una transacci\'on en el ledger. Luego, una propuesta final de chaincode puede verificar que las condiciones de todas las transacciones individuales se cumplen y establecer la transacci\'on comercial con carácter definitivo en todos los miembros del canal.
+\end{itemize}
+
+Fabric v2.0 tambi\'en permite nuevos patrones para trabajar y compartir datos privados, sin el requisito de crear recopilaciones de datos privados para todas las combinaciones de miembros del canal que deseen realizar transacciones. Espec\'ificamente, en lugar de compartir datos privados dentro de una colecci\'on de varios miembros. Es posible compartir datos privados entre colecciones, donde cada colecci\'on puede incluir una sola organizaci\'on, o tal vez una sola organizaci\'on junto con un regulador o auditor.\\
+
+\begin{itemize}
+\item {\bf Compartir y verificar datos privados}. Cuando los datos privados se comparten con un miembro del canal que no es miembro de una colecci\'on, o compartida con otra colecci\'on de datos privados que contiene uno o m\'as miembros del canal (escribiendo una clave para esa colecci\'on), las partes receptoras pueden utilizar la API del chaincode $GetPrivateDataHash()$ para verificar que los datos privados coincidan con los $hash$ en la cadena que se crearon a partir de datos privados en transacciones anteriores.
+
+\item {\bf Pol\'iticas de aprobaci\'on a nivel de colecci\'on}. Las colecciones de datos privados ahora se pueden definir opcionalmente con una pol\'itica de aprobaci\'on que anula la pol\'itica de aprobaci\'on a nivel de chaincode para las claves dentro de la colecci\'on. Se puede usar para restringir qu\'e organizaciones pueden escribir datos en una colecci\'on. Se puede concebir un chaincode que requiere el respaldo de la mayor\'ia de las organizaciones, pero para cualquier transacci\'on determinada, puede necesitar dos organizaciones transaccionales para respaldar individualmente su acuerdo en sus propias colecciones de datos privados.
+
+\item {\bf Recopilaciones impl\'icitas por organizaci\'on}. Si se desea utilizar patrones de datos privados por organizaci\'on, no se necesita definir las colecciones al implementar chaincode. Las colecciones se pueden usar sin ninguna definici\'on inicial.
+\end{itemize}
+
+La funci\'on de lanzador de chaincode externo permite a los operadores crear y lanzar chaincode con la tecnolog\'ia de su elecci\'on. No se requiere el uso de constructores y lanzadores externos ya que el comportamiento predeterminado construye y ejecuta el chaincode de la misma manera que las versiones anteriores con la $API$ de Docker.
+
+\begin{itemize}
+
+\item {\bf Elimina la dependencia del demonio de Docker}. Las versiones anteriores de Fabric requer\'ian que los pares tuvieran acceso a un $Docker
+daemon$  para construir y lanzar chaincode, algo que puede no ser deseable en entornos de producci\'on debido a los privilegios requeridos por el proceso de pares.
+
+\item {\bf Alternativas a los contenedores}. Ya no es necesario ejecutar chaincode en contenedores Docker, y puede ejecutarse en el entorno elegido por el operador (incluidos los contenedores).
+
+\item {\bf Ejecutables del constructor externo}. Un operador puede proporcionar un conjunto de ejecutables del constructor externo para anular c\'omo un
+peer construye y lanza chaincode.
+
+\item {\bf Chaincode como un servicio externo}. Tradicionalmente, los chaincodes son lanzados por el peer y luego se conectan de nuevo al peer. Ahora es posible ejecutar chaincode como un servicio externo, por ejemplo, en un pod de Kubernetes, que un peer puede conectarse y utilizar para la ejecuci\'on de chaincode.
+\end{itemize}
+
+Cuando se utiliza una base de datos de estado externa $CouchDB$, los retrasos de lectura durante las fases de aprobaci\'on y validaci\'on han representado un cuello de botella en el rendimiento. Con Fabric v2.0, una nueva cach\'e reemplaza muchas de estas costosas b\'usquedas con lecturas r\'apidas de cach\'e local. El tama\~no de cach\'e se configura mediante la propiedad $cacheSize$ en $core.yaml$.\\
+
+Hyperledger Fabric posee un dise\~no atractivo para uso empresarial, producto a su adaptabilidad en escenarios de consensos y pol\'iticas de gobierno para varias entidades. Resulta esencial el rendimiento de la plataforma en la transacci\'on de informaci\'on, lo cual nos motiva a realizar un estudio que posibilite obtener un conjunto de configuraciones \'optimas.
