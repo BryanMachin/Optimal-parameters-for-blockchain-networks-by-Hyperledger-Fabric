@@ -1,6 +1,29 @@
-\BOOKMARK [0][-]{chapter*.8}{Introducci\363n}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Estado del Arte de la plataforma blockchain Hyperledger Fabric}{}% 2
-\BOOKMARK [0][-]{chapter.2}{Propuesta}{}% 3
-\BOOKMARK [0][-]{chapter.3}{Detalles de Implementaci\363n y Experimentos}{}% 4
-\BOOKMARK [0][-]{section*.9}{Conclusiones}{}% 5
-\BOOKMARK [0][-]{section*.11}{Recomendaciones}{}% 6
+\BOOKMARK [0][-]{chapter*.6}{Introducci\363n}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Estado del Arte: Arquitectura de Hyperledger Fabric y par\341metros configurables}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Principales conceptos de Hyperledger Fabric}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.1}{Chaincode}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.2}{Libro mayor}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.3}{Pol\355tica de aprobaci\363n}{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.4}{Sistema de chaincode}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.5}{Canal}{section.1.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.6}{Servicio de membres\355a}{section.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.7}{Nodo Par}{section.1.1}% 10
+\BOOKMARK [2][-]{subsection.1.1.8}{Nodo Ordenador}{section.1.1}% 11
+\BOOKMARK [2][-]{subsection.1.1.9}{Cliente}{section.1.1}% 12
+\BOOKMARK [1][-]{section.1.2}{Flujo de transacciones en Hyperledger Fabric}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.2.1}{Fase de aprobaci\363n}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.2}{Fase de ordenaci\363n}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.3}{Fase de validaci\363n}{section.1.2}% 16
+\BOOKMARK [2][-]{subsection.1.2.4}{Fase de actualizaci\363n en el libro mayor}{section.1.2}% 17
+\BOOKMARK [1][-]{section.1.3}{Par\341metros configurables}{chapter.1}% 18
+\BOOKMARK [2][-]{subsection.1.3.1}{Tama\361o de bloque}{section.1.3}% 19
+\BOOKMARK [2][-]{subsection.1.3.2}{Pol\355tica de aprobaci\363n}{section.1.3}% 20
+\BOOKMARK [2][-]{subsection.1.3.3}{Canal}{section.1.3}% 21
+\BOOKMARK [2][-]{subsection.1.3.4}{Recursos}{section.1.3}% 22
+\BOOKMARK [2][-]{subsection.1.3.5}{Base de datos del libro mayor}{section.1.3}% 23
+\BOOKMARK [1][-]{section.1.4}{Hyperledger Fabric v2.x}{chapter.1}% 24
+\BOOKMARK [0][-]{chapter.2}{Propuesta}{}% 25
+\BOOKMARK [0][-]{chapter.3}{Detalles de Implementaci\363n y Experimentos}{}% 26
+\BOOKMARK [0][-]{section*.8}{Conclusiones}{}% 27
+\BOOKMARK [0][-]{section*.10}{Recomendaciones}{}% 28
+\BOOKMARK [0][-]{chapter*.12}{Bibliograf\355a}{}% 29

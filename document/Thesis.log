@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.7.17)  21 SEP 2022 18:49
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.10.9)  13 OCT 2022 23:59
 entering extended mode
 **Thesis.tex
-("D:\Computer Science\TESIS\informe\thesis\document\Thesis.tex"
+
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\Thesis.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +15,9 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-("D:\Computer Science\TESIS\informe\thesis\document\uhthesis.cls"
+
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\uhthesis.cls"
 Document Class: uhthesis 2011/04/12 0.1 uhthesis
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
@@ -602,28 +606,32 @@ Package biblatex Info: ... file 'biblatex.def' found.
 File: biblatex.def 2011/07/29 v1.6 biblatex generic definitions
 \c@smartand=\count205
 )
-Package biblatex Info: Trying to load bibliography style 'apa'...
-Package biblatex Info: ... file 'apa.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex-apa\apa.bbx"
-File: apa.bbx 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx"
+File: numeric.bbx 2011/07/29 v1.6 biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2011/07/29 v1.6 biblatex bibliography style
 ))
-Package biblatex Info: Trying to load citation style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.cbx' found.
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\cbx\authoryear.cbx"
-File: authoryear.cbx 2011/07/29 v1.6 biblatex citation style
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric.cbx"
+File: numeric.cbx 2011/07/29 v1.6 biblatex citation style
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
 Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -749,11 +757,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \f@ncyO@olf=\skip61
 \f@ncyO@orf=\skip62
 )
-Package biblatex Info: Redefining '\cite' on input line 77.
-Package biblatex Info: Redefining '\parencite' on input line 91.
-Package biblatex Info: Redefining '\footcite' on input line 105.
-Package biblatex Info: Redefining '\footcitetext' on input line 112.
-Package biblatex Info: Redefining '\textcite' on input line 119.
+Package biblatex Info: Redefining '\cite' on input line 75.
+Package biblatex Info: Redefining '\parencite' on input line 89.
+Package biblatex Info: Redefining '\footcite' on input line 103.
+Package biblatex Info: Redefining '\footcitetext' on input line 110.
+Package biblatex Info: Redefining '\textcite' on input line 117.
 \c@theorem=\count216
 \c@definition=\count217
 \c@lemma=\count218
@@ -1314,46 +1322,49 @@ Package biblatex Info: ... file 'spanish.lbx' found.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\lbx\spanish.lbx"
 File: spanish.lbx 2011/07/29 v1.6 biblatex localization
 )
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\Thesis.aux"
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Dedication.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Thanks.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/SupervisorOpinion.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Abstract.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Contents.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Introduction.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Background.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Proposal.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Implementation.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\BackMatter/Conclusions.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\BackMatter/Recomendations.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\BackMatter/Bibliography.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 85.
 
-Package biblatex Warning: Conflicting options.
-(biblatex)                'firstinits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 79.
-
-("D:\Computer Science\TESIS\informe\thesis\document\Thesis.aux"
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Dedication.aux"
-) ("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Thanks.aux")
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/SupervisorOpini
-on.aux")
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Abstract.aux")
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Contents.aux")
-("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Introduction.aux
-") ("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Background.au
-x") ("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Proposal.aux
-")
-("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Implementation.a
-ux")
-("D:\Computer Science\TESIS\informe\thesis\document\BackMatter/Conclusions.aux"
-)
-("D:\Computer Science\TESIS\informe\thesis\document\BackMatter/Recomendations.a
-ux")
-("D:\Computer Science\TESIS\informe\thesis\document\BackMatter/Bibliography.aux
-"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 79.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -1370,7 +1381,6 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \makeMPintoPDFobject=\count334
 \everyMPtoPDFconversion=\toks41
 )
-Package biblatex Info: backend=biber recommended by style.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1380,12 +1390,15 @@ Package biblatex Warning: Data encoding is 'utf8'.
 (biblatex)                Use backend=biber.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Thesis.bbl' not found.
-No file Thesis.bbl.
-Package biblatex Info: Reference section=0 on input line 79.
-Package biblatex Info: Reference segment=0 on input line 79.
+Package biblatex Info: ... file 'Thesis.bbl' found.
+
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\Thesis.bbl")
+Package biblatex Info: Reference section=0 on input line 85.
+Package biblatex Info: Reference segment=0 on input line 85.
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring ON on input line 79.
+Package hyperref Info: Link coloring ON on input line 85.
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -1394,12 +1407,14 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count335
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
 
-("D:\Computer Science\TESIS\informe\thesis\document\Thesis.out")
-("D:\Computer Science\TESIS\informe\thesis\document\Thesis.out")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\Thesis.out")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\Thesis.out")
 \@outlinefile=\write6
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1409,221 +1424,304 @@ Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count336
 
-<Graphics/uhlogo.pdf, id=30, 375.98297pt x 481.67456pt>
+<Graphics/uhlogo.pdf, id=122, 375.98297pt x 481.67456pt>
 File: Graphics/uhlogo.pdf Graphic file (type pdf)
 
 <use Graphics/uhlogo.pdf>
-Package pdftex.def Info: Graphics/uhlogo.pdf used on input line 82.
+Package pdftex.def Info: Graphics/uhlogo.pdf used on input line 88.
 (pdftex.def)             Requested size: 49.79231pt x 63.7885pt.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/Computer Science/TESIS
-/informe/thesis/document/Graphics/uhlogo.pdf>]
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Dedication.tex"
-) [2
+/Informe Optimal-parameters-for-blockchain-networks-by-Hyperledger-Fabric/docum
+ent/Graphics/uhlogo.pdf>]
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Dedication.tex") [2
 
 
-] ("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Thanks.tex") 
-[3
+]
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Thanks.tex") [3
 
 
 
 ]
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/SupervisorOpini
-on.tex") [4
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/SupervisorOpinion.tex") [4
 
 
 
 ]
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Abstract.tex"
-[5
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Abstract.tex" [5
 
 
 
 ]) [6
 
 ]
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Contents.tex"
-("D:\Computer Science\TESIS\informe\thesis\document\Thesis.toc")
-\tf@toc=\write7
- [7
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Contents.tex"
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\Thesis.toc"
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 9.
 
-
-
-]
-("D:\Computer Science\TESIS\informe\thesis\document\Thesis.lof")
-\tf@lof=\write8
- [8
-
-]
-("D:\Computer Science\TESIS\informe\thesis\document\Thesis.lol")
-\tf@lol=\write9
-) [9
-
-]
-("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Introduction.tex
-"
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-[1
-
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-[2]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 33.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 33.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 9.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 33.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 9.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 33.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 9.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 33.
+(Font)              <12> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 33.
+(Font)              <9> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 33.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 33.
+(Font)              <7> on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 9.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+ [7
+
+
+
+])
+\tf@toc=\write7
+) [8]
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Introduction.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-) [4]
-("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Background.tex"
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+LaTeX Warning: Citation 'watson53' on page 1 undefined on input line 14.
+
+) [1
+
+
+
+
+]
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Background.tex"
 Cap\'{\i }tulo 1.
-) [5
+[2
 
 
 
-]
-("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Proposal.tex"
+] [3] [4]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 46.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.4> on input line 46.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 46.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 52.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 52.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[5] <Graphics/figura1.png, id=264, 1022.31938pt x 576.65437pt>
+File: Graphics/figura1.png Graphic file (type png)
+
+<use Graphics/figura1.png>
+Package pdftex.def Info: Graphics/figura1.png used on input line 63.
+(pdftex.def)             Requested size: 260.17464pt x 146.75014pt.
+ [6 <D:/Computer Science/TESIS/Informe Optimal-parameters-for-blockchain-networ
+ks-by-Hyperledger-Fabric/document/Graphics/figura1.png>] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+[10] [11])
+Underfull \hbox (badness 10000) in paragraph at lines 149--99
+
+ []
+
+[12]
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Proposal.tex"
 Cap\'{\i }tulo 2.
-) [6
+) [13
 
 
 
 ]
-("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Implementation.t
-ex"
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Implementation.tex"
 Cap\'{\i }tulo 3.
-) [7
+) [14
 
 
 
 ]
-("D:\Computer Science\TESIS\informe\thesis\document\BackMatter/Conclusions.tex"
-) [8
-
-
-
-
-]
-("D:\Computer Science\TESIS\informe\thesis\document\BackMatter/Recomendations.t
-ex") [9
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\BackMatter/Conclusions.tex") [15
 
 
 
 
 ]
-("D:\Computer Science\TESIS\informe\thesis\document\BackMatter/Bibliography.tex
-"
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\BackMatter/Recomendations.tex") [16
 
-LaTeX Warning: Empty bibliography on input line 1.
 
+
+
+]
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\BackMatter/Bibliography.tex"
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
- ("D:\Computer Science\TESIS\informe\thesis\document\Thesis.aux"
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Dedication.aux"
-) ("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Thanks.aux")
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/SupervisorOpini
-on.aux")
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Abstract.aux")
-("D:\Computer Science\TESIS\informe\thesis\document\FrontMatter/Contents.aux")
-("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Introduction.aux
-") ("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Background.au
-x") ("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Proposal.aux
-")
-("D:\Computer Science\TESIS\informe\thesis\document\MainMatter/Implementation.a
-ux")
-("D:\Computer Science\TESIS\informe\thesis\document\BackMatter/Conclusions.aux"
-)
-("D:\Computer Science\TESIS\informe\thesis\document\BackMatter/Recomendations.a
-ux")
-("D:\Computer Science\TESIS\informe\thesis\document\BackMatter/Bibliography.aux
-"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Overfull \hbox (12.61272pt too wide) in paragraph at lines 1--1
+[]\T1/lmr/m/it/12 GoLevelDB\T1/lmr/m/n/12 . \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 :
+ [][]$\T1/lmtt/m/n/12 https : / / github . com / syndtr / goleveldb$[][] \T1/lm
+r/m/n/12 (vi-si-ta-do 12[]10[]2022)
+ []
+
+
+Overfull \hbox (7.23708pt too wide) in paragraph at lines 1--1
+\T1/lmr/m/n/12 the sa-tis-fia-bi-lity pro-blem. En: \T1/lmr/m/it/12 Evo-lu-tio
+-nary compu-tation \T1/lmr/m/n/12 10.1 (2002), págs. 35[]50
+ []
+
+[17
+
+
+
+]) [18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\Thesis.aux"
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Dedication.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Thanks.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/SupervisorOpinion.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Abstract.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\FrontMatter/Contents.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Introduction.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Background.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Proposal.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\MainMatter/Implementation.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\BackMatter/Conclusions.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\BackMatter/Recomendations.aux")
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\BackMatter/Bibliography.aux"))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 760EC39D336FEC780FDD80B55D44A654;377.
+(rerunfilecheck)             Checksum: 2F22E7E5C9FD31BC002556C521D77283;2086.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                Thesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 10 ({)
+### simple group (level 1) entered at line 107 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 24794 strings out of 494045
- 423617 string characters out of 3145969
- 670409 words of memory out of 3000000
- 27529 multiletter control sequences out of 15000+200000
- 50231 words of font info for 48 fonts, out of 3000000 for 9000
+ 25006 strings out of 494045
+ 431930 string characters out of 3145969
+ 669992 words of memory out of 3000000
+ 27684 multiletter control sequences out of 15000+200000
+ 87829 words of font info for 77 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 63i,11n,57p,1124b,1170s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc
-}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/lm/lmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-r17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb>
-
-Output written on Thesis.pdf (18 pages, 232996 bytes).
+ 63i,11n,76p,1626b,1476s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc
+}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
+lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri1
+2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb>
+Output written on Thesis.pdf (26 pages, 524508 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 255 words of extra memory for PDF output out of 10000 (max. 10000000)
 
