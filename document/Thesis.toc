@@ -2,60 +2,82 @@
 \defcounter {refsection}{0}\relax 
 \select@language {spanish}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Introducci\IeC {\'o}n}{1}{chapter*.6}
+\contentsline {chapter}{Introducci\IeC {\'o}n}{1}{chapter*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Estado del Arte: Arquitectura de Hyperledger Fabric y par\'ametros configurables}{2}{chapter.1}
+\contentsline {section}{\numberline {0.1}Situaci\'on probl\'emica}{2}{section.0.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Principales conceptos de Hyperledger Fabric}{3}{section.1.1}
+\contentsline {section}{\numberline {0.2}Motivaci\'on}{2}{section.0.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Chaincode}{3}{subsection.1.1.1}
+\contentsline {section}{\numberline {0.3}Objetivos}{3}{section.0.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Libro mayor}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {0.3.1}Objetivo General}{3}{subsection.0.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Pol\'itica de aprobaci\'on}{3}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {0.3.2}Objetivos Espec\'ificos}{3}{subsection.0.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.4}Sistema de chaincode}{3}{subsection.1.1.4}
+\contentsline {chapter}{\numberline {1}Estado del Arte}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.5}Canal}{4}{subsection.1.1.5}
+\contentsline {chapter}{\numberline {2}Marco Te\IeC {\'o}rico}{5}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.6}Servicio de membres\'ia}{4}{subsection.1.1.6}
+\contentsline {section}{\numberline {2.1}Principales conceptos de Hyperledger Fabric}{5}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.7}Nodo Par}{5}{subsection.1.1.7}
+\contentsline {subsection}{\numberline {2.1.1}Chaincode}{5}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.8}Nodo Ordenador}{5}{subsection.1.1.8}
+\contentsline {subsection}{\numberline {2.1.2}Contrato inteligente}{6}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.9}Cliente}{5}{subsection.1.1.9}
+\contentsline {subsection}{\numberline {2.1.3}Libro mayor}{6}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Flujo de transacciones en Hyperledger Fabric}{5}{section.1.2}
+\contentsline {subsection}{\numberline {2.1.4}Pol\'itica de aprobaci\'on}{6}{subsection.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Fase de aprobaci\'on}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {2.1.5}Protocolo de consenso}{6}{subsection.2.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Fase de ordenaci\'on}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {2.1.6}Sistema de chaincode}{7}{subsection.2.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Fase de validaci\'on}{7}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {2.1.7}Canal}{8}{subsection.2.1.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Fase de actualizaci\'on en el libro mayor}{7}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {2.1.8}Servicio de membres\'ia}{8}{subsection.2.1.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Par\'ametros configurables}{8}{section.1.3}
+\contentsline {subsection}{\numberline {2.1.9}Autoridad certificadora}{9}{subsection.2.1.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Tama\~no de bloque}{8}{subsection.1.3.1}
+\contentsline {subsubsection}{Fabric CA}{9}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Pol\'itica de aprobaci\'on}{8}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {2.1.10}Nodo Par}{10}{subsection.2.1.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Canal}{8}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {2.1.11}Nodo Ordenador}{10}{subsection.2.1.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Recursos}{9}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {2.1.12}Cliente}{10}{subsection.2.1.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.5}Base de datos del libro mayor}{9}{subsection.1.3.5}
+\contentsline {section}{\numberline {2.2}Flujo de transacciones en Hyperledger Fabric}{10}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Hyperledger Fabric v2.x}{9}{section.1.4}
+\contentsline {subsection}{\numberline {2.2.1}Fase de aprobaci\'on}{11}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Propuesta}{13}{chapter.2}
+\contentsline {subsection}{\numberline {2.2.2}Fase de ordenaci\'on}{12}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Detalles de Implementaci\IeC {\'o}n y Experimentos}{14}{chapter.3}
+\contentsline {subsection}{\numberline {2.2.3}Fase de validaci\'on}{12}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusiones}{15}{section*.8}
+\contentsline {subsection}{\numberline {2.2.4}Fase de actualizaci\'on en el libro mayor}{12}{subsection.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Recomendaciones}{16}{section*.10}
+\contentsline {section}{\numberline {2.3}Par\'ametros configurables}{12}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliograf\'{\i }a}{17}{chapter*.12}
+\contentsline {subsection}{\numberline {2.3.1}Tama\~no de bloque}{13}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Pol\'itica de aprobaci\'on}{13}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Canal}{13}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Recursos}{13}{subsection.2.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.5}Base de datos del libro mayor}{13}{subsection.2.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Hyperledger Fabric v2.x}{14}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Propuesta}{19}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Detalles de Implementaci\IeC {\'o}n y Experimentos}{20}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusiones}{21}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Anexos}{22}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Recomendaciones}{23}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliograf\'{\i }a}{24}{chapter*.16}

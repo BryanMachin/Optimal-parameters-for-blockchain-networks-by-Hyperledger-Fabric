@@ -187,6 +187,14 @@
    \addcontentsline{toc}{chapter}{Recomendaciones}%
     \chapter*{Recomendaciones}}%
   {}
+
+\newenvironment{anexos}%
+  {\cleardoublepage%
+   \phantomsection%
+   \addcontentsline{toc}{chapter}{Anexos}%
+    \chapter*{Anexos}}%
+  {}
+
 \newenvironment{dedication}%
   {\cleardoublepage%
    \thispagestyle{empty}%
