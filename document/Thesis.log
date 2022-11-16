@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.10.9)  28 OCT 2022 19:56
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.10.9)  11 NOV 2022 16:10
 entering extended mode
 **Thesis.tex
 
@@ -1309,7 +1309,6 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \colbreak@box=\box73
 \multicol@sort@counter=\count328
 )
-\@float@every@table=\toks39
 \@nomenclaturefile=\write5
 
 Writing nomenclature file Thesis.nlo
@@ -1378,12 +1377,12 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \scratchbox=\box74
 \nofMPsegments=\count330
 \nofMParguments=\count331
-\everyMPshowfont=\toks40
+\everyMPshowfont=\toks39
 \MPscratchCnt=\count332
 \MPscratchDim=\dimen206
 \MPnumerator=\count333
 \makeMPintoPDFobject=\count334
-\everyMPtoPDFconversion=\toks41
+\everyMPtoPDFconversion=\toks40
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1528,19 +1527,71 @@ by-Hyperledger-Fabric\document\MainMatter/Introduction.tex" [1
 ("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
 by-Hyperledger-Fabric\document\MainMatter/Background.tex"
 Cap\'{\i }tulo 1.
-) [4
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+[4
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+<Graphics/EscalaParesUnaOrganizacion.png, id=326, 611.28375pt x 275.52937pt>
+File: Graphics/EscalaParesUnaOrganizacion.png Graphic file (type png)
+
+<use Graphics/EscalaParesUnaOrganizacion.png>
+Package pdftex.def Info: Graphics/EscalaParesUnaOrganizacion.png used on input 
+line 35.
+(pdftex.def)             Requested size: 260.17464pt x 117.26869pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+[5 <D:/Computer Science/TESIS/Informe Optimal-parameters-for-blockchain-network
+s-by-Hyperledger-Fabric/document/Graphics/EscalaParesUnaOrganizacion.png>]
+<Graphics/EscalaParesDosOrganizaciones.png, id=338, 619.56468pt x 282.30469pt>
+File: Graphics/EscalaParesDosOrganizaciones.png Graphic file (type png)
+
+<use Graphics/EscalaParesDosOrganizaciones.png>
+Package pdftex.def Info: Graphics/EscalaParesDosOrganizaciones.png used on inpu
+t line 44.
+(pdftex.def)             Requested size: 260.17464pt x 118.54561pt.
+) [6 <D:/Computer Science/TESIS/Informe Optimal-parameters-for-blockchain-netwo
+rks-by-Hyperledger-Fabric/document/Graphics/EscalaParesDosOrganizaciones.png>]
 ("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
 by-Hyperledger-Fabric\document\MainMatter/TheoreticalFramework.tex"
 Cap\'{\i }tulo 2.
-[5
+[7
 
 
 
-] [6]
+] [8]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1553,48 +1604,49 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
- [7]
+ [9]
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-[8] [9]
+[10] [11]
 Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-[10] <Graphics/figura1.png, id=372, 1022.31938pt x 576.65437pt>
-File: Graphics/figura1.png Graphic file (type png)
+[12] <Graphics/FlujoTransacciones.png, id=413, 1022.31938pt x 576.65437pt>
+File: Graphics/FlujoTransacciones.png Graphic file (type png)
 
-<use Graphics/figura1.png>
-Package pdftex.def Info: Graphics/figura1.png used on input line 97.
+<use Graphics/FlujoTransacciones.png>
+Package pdftex.def Info: Graphics/FlujoTransacciones.png used on input line 97.
+
 (pdftex.def)             Requested size: 260.17464pt x 146.75014pt.
- [11 <D:/Computer Science/TESIS/Informe Optimal-parameters-for-blockchain-netwo
-rks-by-Hyperledger-Fabric/document/Graphics/figura1.png>] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+ [13 <D:/Computer Science/TESIS/Informe Optimal-parameters-for-blockchain-netwo
+rks-by-Hyperledger-Fabric/document/Graphics/FlujoTransacciones.png>] [14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
-[15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+[17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-) [17] [18]
+) [19] [20]
 ("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
 by-Hyperledger-Fabric\document\MainMatter/Proposal.tex"
 Cap\'{\i }tulo 3.
-) [19
+) [21
 
 
 
@@ -1602,27 +1654,27 @@ Cap\'{\i }tulo 3.
 ("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
 by-Hyperledger-Fabric\document\MainMatter/Implementation.tex"
 Cap\'{\i }tulo 4.
-) [20
+) [22
 
 
 
 ]
 ("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
-by-Hyperledger-Fabric\document\BackMatter/Conclusions.tex") [21
-
-
-
-
-]
-("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
-by-Hyperledger-Fabric\document\BackMatter/Anexos.tex") [22
+by-Hyperledger-Fabric\document\BackMatter/Conclusions.tex") [23
 
 
 
 
 ]
 ("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
-by-Hyperledger-Fabric\document\BackMatter/Recomendations.tex") [23
+by-Hyperledger-Fabric\document\BackMatter/Anexos.tex") [24
+
+
+
+
+]
+("D:\Computer Science\TESIS\Informe Optimal-parameters-for-blockchain-networks-
+by-Hyperledger-Fabric\document\BackMatter/Recomendations.tex") [25
 
 
 
@@ -1647,11 +1699,11 @@ Overfull \hbox (7.23708pt too wide) in paragraph at lines 1--1
 -nary compu-tation \T1/lmr/m/n/12 10.1 (2002), págs. 35[]50
  []
 
-[24
+[26
 
 
 
-]) [25]
+] [27]) [28]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
 
@@ -1688,25 +1740,31 @@ by-Hyperledger-Fabric\document\BackMatter/Bibliography.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B63EFFF28E6F036FBDE9CF7DFC6F78ED;2759.
+(rerunfilecheck)             Checksum: C3787B5883260428C844AE7C1F1E5FDA;2760.
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 142 ({)
+### simple group (level 1) entered at line 143 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25093 strings out of 494045
- 435110 string characters out of 3145969
- 668965 words of memory out of 3000000
- 27722 multiletter control sequences out of 15000+200000
+ 25136 strings out of 494045
+ 436194 string characters out of 3145969
+ 672928 words of memory out of 3000000
+ 27752 multiletter control sequences out of 15000+200000
  95084 words of font info for 79 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 63i,12n,76p,2861b,1480s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,12n,76p,2862b,1480s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc
-}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2
+.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
+mcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 r17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/P
@@ -1714,11 +1772,11 @@ rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/lm/lmro10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/un
-cb8a.pfb>
-Output written on Thesis.pdf (34 pages, 549764 bytes).
+ic/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
+2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb>
+Output written on Thesis.pdf (37 pages, 662254 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 655 PDF objects out of 1000 (max. 8388607)
+ 123 named destinations out of 1000 (max. 500000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
