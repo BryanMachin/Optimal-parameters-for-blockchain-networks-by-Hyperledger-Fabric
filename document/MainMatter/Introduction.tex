@@ -1,0 +1,37 @@
+\chapter*{Introducción}\label{chapter:introduction}
+\addcontentsline{toc}{chapter}{Introducción}
+
+
+En 2009 Satoshi Nakamoto introduce Bitcoin [\cite{nakamoto2008bitcoin}], la primera criptomoneda descentralizada. Las criptomonedas fueron las primeras aplicaciones que emplearon la tecnolog\'ia \emph{blockchain}. Con el tiempo, su aplicaci\'on se ha ramificado a distintas esferas, tales como: salud, cadenas de suministro, sistemas electorales, entre otras [\cite{tama2017critical}].\\
+
+Cuando se trata de almacenar y compartir datos entre diferentes entidades, la base de datos centralizada tiene algunas desventajas para garantizar la integridad de sus datos. Puede estar vulnerable si ocurre alg\'un ataque o falla y no se encuentra \emph{clusterizada}, o no se tiene copia de seguridad. Adem\'as, por motivos de privacidad, pudiera no ser aceptable almacenar los datos en un tercero [\cite{xu2017taxonomy}]. Una posible soluci\'on es elegir una entidad de confianza para almacenar los datos. Sin embargo, dado que estas entidades tienen pol\'iticas diferentes, ser\'ia de mayor complejidad lograr un acuerdo sobre la que almacenar\'a los datos. Por su naturaleza distribuida, \emph{blockchain} supera estas limitaciones al no existir una autoridad centralizada; cada entidad puede tener una copia de los datos, y todas deben acordar las transacciones antes de su escritura en la \emph{blockchain}. Cada bloque de transacciones se refiere al bloque anterior por su \emph{hash}, lo que garantiza la integridad de los datos.\\
+
+Se puede afirmar que una red \emph{Blockchain} es un conjunto de nodos, conectados entre s\'i usando un protocolo com\'un, con el objetivo de validar y almacenar la informaci\'on en una red \emph{P2P}\footnote{Modelo de comunicaci\'on descentralizado, donde cada parte act\'ua por igual y pueden tener la funci\'on de servidor o de cliente.}. La informaci\'on se registra en una base de datos conocida como \emph{ledger} (registro o libro mayor), de ah\'i el acr\'onimo \emph{DLT} (\emph{Distributed Ledger Technology}) asociado a este tipo de tecnolog\'ias. En la \emph{blockchain} el \emph{DLT} registra todas las transacciones entre nodos que han ocurrido desde la creaci\'on de la red garantizando su inmutabilidad.\\
+
+En la literatura, es posible agrupar redes \emph{blockchain} como \emph{"permisionadas"}\footnote{Los participantes deben obtener un permiso y suele ser gestionado por alguna CA (\emph{Certificate Authority}).} y \emph{"no permisionadas"}. Gracias a las caracter\'isticas de las \emph{"no permisiondas"} es posible definir redes seud\'onimas de accesibilidad p\'ublica con transacciones transparentes.\\
+
+Las redes \emph{blockchain} \emph{"permisionadas"} se emplean, en mayor medida, para entornos empresariales donde es necesario tener en cuenta aspectos como la privacidad y confidencialidad de los datos. Permite compartir datos y acceder a entidades/usuarios de confianza espec\'ificos [\cite{xu2017taxonomy}]. Sin embargo, estas entidades tienen que obtener un consenso entre ellas para identificar cualquier manipulaci\'on no autorizada de datos. En Bitcoin, se utiliza un esquema de consenso \emph{PoW}, prueba de trabajo, en el que los mineros compiten para resolver un rompecabezas computacionalmente intensivo y una vez que un minero lo resuelve, transmite el nuevo bloque. Una de sus limitaciones es la vulnerabilidad al ataque del 51$\%$ que permite tomar el control de toda la red [\cite{narayanan2016bitcoin}], lo que sucede si una sola entidad posee m\'as del 51$\%$ del poder computacional de la \emph{blockchain}. En el caso de Peercoin [\cite{king2012ppcoin}] emplea \emph{PoS}, prueba de participaci\'on, para disminuir la sobrecarga computacional de \emph{PoW}. La prueba de participaci\'on se basa en la cantidad de moneda reservada y el tiempo de participaci\'on en la red, pero pueden definirse otros criterios; que una vez establecidos, se inicia el proceso de selecci\'on de nodos de forma aleatoria para validar transacciones o crear nuevos bloques. A diferencia de \emph{PoW}, este enfoque no consume gran cantidad de recursos. Adem\'as, no es vulnerable al ataque del 51$\%$, ya que el atacante necesita poseer m\'as monedas que el resto de la red; causando un aumento en el precio de la moneda, lo que hace que los ataques sean muy costosos. La prueba de trabajo y la prueba de participaci\'on son dos de las t\'ecnicas de consenso que garantizan confianzas m\'as comunes en las blockchains no permisionadas, sin importar que el proceso de miner\'ia consuma mucho tiempo. Por el contrario, las \emph{blockchains} \emph{"permisionadas"} emplean protocolos m\'as r\'apidos para lograr el consenso.\\
+
+Entre las plataformas m\'as comunes est\'an Ethereum [\cite{antonopoulos2018mastering}] y Hyperledger Fabric. Ethereum se estableci\'o en 2015 y finalmente se convirti\'o en uno de los marcos de \emph{blockchains} programables m\'as populares. Si bien Ethereum es m\'as liviano y m\'as f\'acil de usar, no es altamente personalizable. A diferencia, Hyperledger Fabric ha dado pasos sustanciales en virtud de lograr un sistema lo m\'as adaptable posible que garantice un mejor rendimiento para los distintos casos de uso [\cite{valenta2017comparison}], principalmente en ecosistemas empresariales.
+
+
+\section{Problema a resolver}
+Cuando se trata de configuraciones, Hyperledger Fabric brinda un alto grado de libertad a los operadores de red. Existen par\'ametros para configurar el rendimiento y latencia de las transacciones, que se pueden ajustar para escenarios donde se ejecuten una gran cantidad de transacciones por segundos (\emph{TPS}) o donde ocurra todo lo contrario, y es en dependencia de la configuraci\'on de estos par\'ametros que se puede mejorar el rendimiento de redes \emph{blockchain} usando Hyperledger Fabric. Por lo que el problema a resolver consiste en definir una configuraci\'on para casos de uso con un bajo n\'umero de transacciones por segundo y otro para los casos de un elevado n\'umero de transacciones por segundos; de tal modo que se pueda configurar el canal de comunicaci\'on donde se desarrollan las transacciones, para cada escenario, que propicie el mejor rendimiento posible.\\
+
+La tecnolog\'ia \emph{Blockchain} ha brindado un nuevo paradigma para generar confianza en los datos, dentro de un ambiente no necesariamente confiable. Los mecanismos para lograrlo, expuestos hoy en d\'ia, consumen diversos recursos, que en escenarios de gran trasiego de informaci\'on pueden fracturar el correcto funcionamiento de la tecnolog\'ia. Esto nos motiva a realizar un estudio que posibilite minimizar el uso de los recursos siempre y cuando se logre un desempe\~no \'optimo.
+
+
+\section{Objetivos}
+\subsection{Objetivo General}
+Determinar como pueden ser las configuraciones \'optimas para canales de redes \emph{blockchain} de Hyperledger Fabric, que seg\'un los escenarios de uso, son de mayor o menor volumen de transacciones.
+
+{\vspace{0.5 cm}}
+
+\subsection{Objetivos Espec\'ificos}
+\begin{itemize}
+\item Configurar y Desplegar una red \emph{blockchain} de Hyperledger Fabric para los escenarios de 10 y 100 transacciones por segundo respectivamente.
+\item Medir la latencia (m\'inima, m\'axima y promedio) y el rendimiento de las redes desplegadas.
+\item Analizar los valores de las m\'etricas estudiadas.
+\item Determinar un conjunto de par\'ametros de configuraci\'on \'optimos para cada escenario, basado en la latencia promedio y el rendimiento de la red.
+\end{itemize}
+
