@@ -1,10 +1,10 @@
 \chapter{Detalles de Implementación y Experimentos}\label{chapter:implementation}
 
-El estudio se realiz\'o en un sistema operativo Ubuntu 22.04 LTS con una CPU Intel Core i3-5020U 2.20Ghz y 12GB 1600MHz RAM. Se utiliz\'o Docker 19.03.8 para las im\'agenes de Fabric v2.4.\\
+El estudio se realiz\'o en un sistema operativo GNU/Linux 22.04 LTS con una CPU Intel Core i3-5020U 2.20Ghz y 12GB de RAM a 1600MHz de velocidad. Se utiliz\'o Docker 19.03.8 para las im\'agenes de Fabric v2.4.\\
 
 Para configurar la red se utiliz\'o Minifabric en su versi\'on m\'as reciente. Las pruebas de rendimiento se realizaron con Caliper v0.5.0 empleando el \emph{chaincode} \emph{samplecc} suministrado por Minifabric.\\
 
-Los nodos ordenadores emplearon el mecanismo de consenso \emph{raft} en cada una de las configuraciones y los nodos pares, \emph{GoLevelDB} como base de datos de estado. Se destaca el empleo del voto por mayor\'ia en la pol\'itica de aprobaci\'on, donde todos los nodos pares fueron igualmente configurados para participar en ella. Se tuvo en cuenta el estudio en una sola organizaci\'on, pero de acuerdo a la pol\'itica de aprobaci\'on implantada, su comportamiento simula para $n$ nodos pares, una red con $n$ organizaciones de un nodo par cada una, donde se evita el sesgo que propicia la conectividad en las organizaciones y a su vez se tiene un acceso homog\'eneo de los recursos del \emph{hardware}.
+El nodo ordenador emple\'o el mecanismo de consenso \emph{raft} en cada una de las configuraciones y los nodos pares, \emph{GoLevelDB} como base de datos de estado. Se destaca el empleo del voto por mayor\'ia en la pol\'itica de aprobaci\'on, donde todos los nodos pares fueron igualmente configurados para participar en ella. Se tuvo en cuenta el estudio en una sola organizaci\'on, pero de acuerdo a la pol\'itica de aprobaci\'on implantada, su comportamiento simula para $n$ nodos pares, una red con $n$ organizaciones de un nodo par cada una, donde se evita el sesgo que propicia la conectividad en las organizaciones y a su vez se tiene un acceso homog\'eneo de los recursos del \emph{hardware}.
 
 \newpage
 \section{Escenario de bajo volumen de transacciones}
